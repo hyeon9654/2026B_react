@@ -14,7 +14,7 @@ export default function Practice2( props ){ // HTML --> CSS --> JS
     // --- 삭제함수 ---
     const 삭제함수 = ( index )=> {
         members.splice( index , 1 ) // JS에서 특정 인덱스에서 1개 삭제
-        setMembers( [...members ] ) // 렌더링 위한 코드!!!
+        setMembers( [...members ] ) // 렌더링 위한 코드
     }
     return (<>
         <input value={ name } onChange={ (e) => { setName(e.target.value); }} />
