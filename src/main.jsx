@@ -45,5 +45,15 @@ const create = createRoot( root );
 // import Component2 from "./example/day03/Component2";
 // create.render( <Component2/> )
 
-import Practice2 from "./example/day03/practice2/Practice2";
-create.render( <Practice2/> )
+// import Practice2 from "./example/day03/practice2/Practice2";
+// create.render( <Practice2/> )
+
+// [day04]
+// import { BrowserRouter } from "react-router-dom";   // 1. 라우터 라이브러리 가져오기
+// import App from "./example/day04/App";
+// 2. 최초 렌더링되는 컴포넌트 앞뒤로 아우터컴포넌트 감싼다.
+// create.render( <BrowserRouter> <App/> </BrowserRouter> )
+
+import { BrowserRouter } from "react-router-dom";
+import App from "./example/day04/practice3/App";
+create.render(<BrowserRouter><App/></BrowserRouter>)
