@@ -7,12 +7,16 @@ import TopNavi from "./components/TopNavi";
 
 export default function App( props ){
     return(<>
-        <TopNavi></TopNavi>
+    <div className="layout">
+        <TopNavi/>
+        <main className="content">
         <Routes>
             <Route path="/Seokam" element={ <Seokam/> }></Route>
             <Route path="/Jin" element={ <Jin/> }></Route>
             <Route path="/LImJunHee" element={ <LimJunHee/> }></Route>
             <Route path="/Hyunmin" element={ <Hyunmin/> }></Route>
         </Routes>
+        </main>
+        </div>
     </>)
 }
