@@ -11,9 +11,10 @@ export default function App( props ){
         <TopNavi/>
         <main className="content">
         <Routes>
+            <Route path="/" element={<Hyunmin/>}></Route>
             <Route path="/Seokam" element={ <Seokam/> }></Route>
             <Route path="/Jin" element={ <Jin/> }></Route>
-            <Route path="/LImJunHee" element={ <LimJunHee/> }></Route>
+            <Route path="/LimJunHee" element={ <LimJunHee/> }></Route>
             <Route path="/Hyunmin" element={ <Hyunmin/> }></Route>
         </Routes>
         </main>

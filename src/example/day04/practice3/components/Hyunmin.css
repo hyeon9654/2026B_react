@@ -1,0 +1,12 @@
+.hyunmin-restaurants { max-width: 1100px; color: #243247; }
+.hyunmin-restaurants h2 { margin-top: 0; }
+.hyunmin-restaurants button { padding: 10px 18px; border: 0; border-radius: 6px; background: #2455a4; color: white; cursor: pointer; }
+.hyunmin-restaurants button:disabled { opacity: .6; cursor: wait; }
+.hyunmin-restaurants .restaurant-error { color: #b42318; }
+.hyunmin-restaurants .restaurant-table-wrap { max-width: 100%; overflow-x: auto; }
+.hyunmin-restaurants table { width: 100%; border-collapse: collapse; }
+.hyunmin-restaurants caption { text-align: left; padding: 12px 0; font-weight: bold; }
+.hyunmin-restaurants th, .hyunmin-restaurants td { border: 1px solid #d9e0e8; padding: 12px; text-align: left; vertical-align: top; }
+.hyunmin-restaurants th { background: #eff4fb; white-space: nowrap; }
+.hyunmin-restaurants summary { cursor: pointer; white-space: nowrap; }
+.hyunmin-restaurants pre { max-width: 340px; max-height: 300px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; }
